@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    text-align: center;
+    box-sizing: border-box;
+}
+#opponent-choice{
+    width: 220px;
+    height: 220px;
+    margin-top: 10px;
+}
+#your-choice{
+    width: 220px;
+    height: 220px;
+    margin-top: 10px;
+}
+#choices{
+    width: 240px;
+    height: 80px;
+    margin: 0 auto;
+}
+#choices img{
+    width: 80px;
+    height: 80px;
+}
+
+
+
+
+
+.popup {
+    background: #7f7f7f;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 12vmin;
+}
+
+#new-game {
+    font-size: 0.3em;
+    padding: 0.3em 0.8em;
+    background-color: green;
+    color: #fff;
+    border-radius: 0.2em;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+#new-game:hover, #exit:hover {
+    background-color: #4c4c4c;
+}
+
+#exit{
+    font-size: 0.3em;
+    padding: 0.3em 1.5em;
+    background-color: #ff0000;
+    color: #fff;
+    border-radius: 0.2em;
+    border: none; 
+    text-align: center;
+    cursor: pointer;
+}
+
+.popup.hide {
+    display: none;
+}
+
+#message {
+    margin-top: 10px;
+    color: #4c4c4c;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+#wrapper {
+    background-color: #ffff;
+    padding: 10px;
+    border-radius: 10px;
+    width: 600px;
+    height: 300px;
+}
+
+.buttons {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .popup {
+        font-size: 8vmin;
+    }
+
+    #wrapper {
+        width: 90%;
+        height: auto;
+    }
+
+    #new-game, #exit {
+        font-size: 0.5em;
+        padding: 0.5em 1em;
+    }
+
+    .buttons {
+        flex-direction: row;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .popup {
+        font-size: 7vmin;
+    }
+    #message{
+        font-size: 13vmin;
+    }
+    #wrapper {
+        width: 90%;
+        height: auto;
+    }
+
+    #new-game, #exit {
+        font-size: 0.8em;
+        padding: 0.6em 1.2em;
+    }
+
+    .buttons {
+        margin-top: 15px;
+        flex-direction: row;
+        gap: 15px;
+    }
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Philosopher&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+      }
+
+      .about-section {
+        margin: 20px 0;
+        padding: 30px;
+      }
+
+      .about-section ul {
+        margin: 20px 0;
+        padding-left: 20px;
+      }
+
+      .about-section ul li {
+        margin-bottom: 10px;
+      }
+      .about-section ul li strong {
+        color: #8fc7ff;
+      }
+      .about-section p {
+        margin-bottom: 20px;
+      }
+      footer {
+        text-align: center;
+        padding: 10px;
+        background: #333;
+        color: #fff;
+      }
+      @media (min-width: 720px) {
+        .about-section {
+          margin: 20px 0;
+          padding: 0 150px;
+          align-items: center;
+        }
+        .about-section p {
+          text-align: center;
+
+          padding: 50px 150px 50px 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div id="title-logo">
+          <img
+            src="Assets/gamerz.jpg"
+            alt="Game Store Logo"
+            width="80px"
+            id="logo"
+          />
+          <div class="brand-title">Game Store</div>
+        </div>
+        <a class="toggle-button" onclick="toggleMenu()">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about" style="color: blue">About</a></li>
+            <li><a href="contactus.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main style="color: #fff">
+      <section class="about-section">
+        <p>
+          Welcome to my collection of JavaScript mini-games! I'm
+          <b style="color: #8fc7ff">Sachin Singh</b>, a passionate game
+          developer with a love for creating fun and engaging web-based games.
+          This website is a showcase of my JavaScript mini-games, each designed
+          to entertain and challenge you. Here, you'll find a variety of games,
+          from classic puzzles to original creations.
+        </p>
+
+        <h2 style="color: #8fc7ff">
+          Explore a diverse range of games, including:
+        </h2>
+        <ul>
+          <li><strong>2048</strong>: A popular sliding block puzzle game.</li>
+          <li>
+            <strong>Snake</strong>: The classic game of snake where you try to
+            eat as much food as possible without hitting the walls.
+          </li>
+          <li>
+            <strong>Memory Game</strong>: Test your memory with this card
+            matching game.
+          </li>
+          <li>
+            <strong>Tic-Tac-Toe</strong>: Play the traditional game of Xs and Os
+            against the computer or a friend.
+          </li>
+        </ul>
+
+        <p>
+          I’d love to hear your feedback! If you have any suggestions,
+          questions, or just want to say hi, feel free to
+          <a href="contactus.html" style="color: #8fc7ff">contact me</a>.
+        </p>
+      </section>
+    </main>
+    <footer>
+      <p>Game Store &copy; 2024 All rights reserved</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

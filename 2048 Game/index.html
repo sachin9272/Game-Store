@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048 Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="score-container">
+            <span>Score: </span><span id="score">0</span>
+        </div>
+        <div id="board"></div>
+        <a class="exit" href="../index.html"><button>Exit</button></a>
+    </div>
+    <div id="game-over-popup" class="popup hide">
+        <div class="popup-content">
+            <h2>Game Over!</h2>
+            <button id="restart">Restart</button>
+            <a href="../index.html"><button id="exit">Exit</button></a>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
