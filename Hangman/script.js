@@ -6,7 +6,7 @@ const gameModal = document.querySelector('.game-modal');
 const playAgainBtn = document.querySelector('.play-again');
 
 let currentWord, correctLetters = [], wrongGuessCount;
-const maxGuesses = 6;
+const maxGuesses = 6; 
 
 const resetGame = () => {
     correctLetters = [];

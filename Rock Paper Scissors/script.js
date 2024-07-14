@@ -12,7 +12,7 @@ let opponentScore=0;
 let count=0;
 // popupRef.classList.remove("hide");
 
-let choices = ["rock","paper","scissors"];
+let choices = ["rock","paper","scissors"]; 
 
 window.onload = function(){
     for(let i=0;i<3;i++){

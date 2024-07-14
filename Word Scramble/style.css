@@ -9,7 +9,7 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background: #5372f0;
+    background-image: radial-gradient(#104069,#000000);
 }
 .container{
     width: 90vmin;
@@ -18,7 +18,7 @@ body{
 }
 .container h2{
     font-weight: 600; 
-    padding: 18px 25px;
+    padding: 18px 25px; 
     border-bottom: 1px solid #ccc;
     display: flex;
     align-items: center;
@@ -69,14 +69,16 @@ body{
     border-radius: 5px;
     width: calc(100% / 2 - 8px);
     color: #fff;
-    font-size: 15px;
+    font-size: 20px;
+    cursor: pointer;
 }
 .buttons .refresh-word{
     background: #6c757d;
-    font-size: 15px;
+    font-size: 3vmin;
 }
 .buttons .Check-word{
-    background: #5372f0;
+    background: #057b07;
+    font-size: 3vmin;
 }
 .exit{
     padding: 15px;
@@ -86,10 +88,11 @@ body{
     align-items: center;
     justify-content: center;
     margin-left: 25%;
-    font-size: 15px;
+    font-size: 3vmin;
     background: #ff0808c8;
     outline: none;
     border: none;
     border-radius: 5px;
     color: #fff;
+    cursor: pointer;
 }

@@ -14,7 +14,7 @@ let winningPattern = [
     [1,4,7],
     [0,4,8],
     [2,4,6],
-];
+]; 
 
 let xTurn = true;
 let count = 0;

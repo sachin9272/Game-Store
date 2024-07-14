@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const size = 4;
     let tiles = Array(size).fill().map(() => Array(size).fill(0));
     let score = 0;
-
+ 
     const drawBoard = () => {
         const board = document.getElementById('board');
         board.innerHTML = '';

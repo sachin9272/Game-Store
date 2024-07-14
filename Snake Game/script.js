@@ -14,7 +14,7 @@ let score = 0;
 let highScore = localStorage.getItem("high-score") || 0;
 highScoreElement.innerHTML = `High Score: ${highScore}`;
 
-
+ 
 const changeFoodPosition = () => {
   foodX = Math.floor(Math.random() * 30) + 1;
   foodY = Math.floor(Math.random() * 30) + 1;

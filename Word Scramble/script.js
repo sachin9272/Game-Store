@@ -8,7 +8,7 @@ const exit = document.querySelector('.exit');
 
 let correctWord, timer;
 
-const initTimer = maxTime => {
+const initTimer = maxTime => { 
     clearInterval(timer);
     timer = setInterval(()=>{
         if(maxTime > 0){

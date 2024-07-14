@@ -8,13 +8,14 @@ html, body {
     margin: 0;
     top: 0;
     bottom: 0;
-    left: 0;
+    left: 0; 
     right: 0;
-    background-color: #fff;
+    /* background-color: #fff; */
+    background-image: radial-gradient(#279aff,#000000);
     font-family: 'Poppins', sans-serif;
 }
 
-#view {
+#view { 
     margin-top: 30px;
 }
 
@@ -28,12 +29,12 @@ html, body {
 #mazeContainer #mazeCanvas {
     margin: 0;
     display: block;
-    border: solid 2px black;
+    border: double 5px #fff;
     height: 400px;
 }
-input, select {
+input, select, button {
     cursor: pointer;
-    background-color: rgba(0, 0, 0, 0.30);
+    background-color: #8fc7ff;
     height: 45px;
     width: 150px;
     padding: 10px;
@@ -46,11 +47,14 @@ input, select {
     text-decoration: none;
     appearance: none;
 }
-input:hover, select:hover {
-	background-color: rgba(0, 0, 0, 0.70);
+button{
+    margin-top: 15px;
+    text-decoration: none;
+    background-color: red;
+    
 }
-input:active, select:active {
-	background-color: black;
+input:hover, select:hover {
+	background-color: #a4c9ee;
 }
 input:focus, select:focus {
 	outline: none;
@@ -76,7 +80,7 @@ input:focus, select:focus {
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: rgba(0, 0, 0, 0.30);
+    background-image: radial-gradient(#104069,#000000);
     z-index: 1;
 }
 #Message-Container #message {
@@ -116,12 +120,13 @@ input:focus, select:focus {
     height: auto;
 }
 .border {
-    border: 10px black solid;
+    border: 10px #fff solid;
     border-radius: 10px;
 }
 
 #instructions {
     margin-top: 425px;
+    color: #fff;
 }
  
 /* Extra small devices (phones, 600px and down) */

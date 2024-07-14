@@ -9,12 +9,12 @@ document.addEventListener('DOMContentLoaded', () => {
     let board = [];
     let currentPiece;
     let score = 0;
-    let gameInterval;
+    let gameInterval; 
 
     const shapes = [
         // I
         [[1, 1, 1, 1]],
-        // J
+        // J 
         [[1, 0, 0], [1, 1, 1]],
         // L
         [[0, 0, 1], [1, 1, 1]],
@@ -134,6 +134,8 @@ document.addEventListener('DOMContentLoaded', () => {
         currentPiece.drop();
         drawBoard();
         currentPiece.draw();
+        score++;
+        scoreElement.innerHTML = score;
     };
 
     startButton.addEventListener('click', () => {
@@ -141,7 +143,7 @@ document.addEventListener('DOMContentLoaded', () => {
         currentPiece = randomPiece();
         score = 0;
         scoreElement.textContent = score;
-        startButton.disabled = true;
+        startButton.disabled = true; 
         gameInterval = setInterval(update, 1000);
     });
 
