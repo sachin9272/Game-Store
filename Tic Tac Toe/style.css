@@ -32,7 +32,8 @@ body{
     border: none;
     border-radius: 8px;
     font-size: 12vmin;
-    background-image: radial-gradient(#104069,#000000);
+    background-image: radial-gradient(#1386eb,#000000);
+    border: 3px solid ;
     color: #fff;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
@@ -47,6 +48,7 @@ body{
     margin: 1.5em auto 0 auto;
     display: block;
     cursor: pointer;
+    border: 5px double;
 }
 .popup{
     background-image: radial-gradient(#104069,#000000);
