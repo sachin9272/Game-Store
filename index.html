@@ -18,6 +18,14 @@
           <img src="Assets/gamerz.jpg" alt="" width="80px" id="logo" />
           <div class="brand-title">Game Store</div>
         </div>
+        <div class="search-container">
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Search for a game..."
+            oninput="filterGames()"
+          />
+        </div>
         <a class="toggle-button" onclick="toggleMenu()">
           <span class="bar"></span>
           <span class="bar"></span>
