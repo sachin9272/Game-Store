@@ -1,20 +1,25 @@
 body {
   font-family: Arial, sans-serif;
   text-align: center;
-  background-color: #f9f9f9;
-  margin: 0;
+  background-image: radial-gradient(#104069,#000000);  margin: 0;
   padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
 }
 .container {
   max-width: 600px;
-  margin: 50px auto;
+  margin: 10px auto;
   padding: 20px;
   background: #ffffff;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 h1 {
-  color: #333;
+  color: #fff;
 }
 .score {
   font-size: 24px;
@@ -26,7 +31,7 @@ h1 {
   color: #888;
   margin-bottom: 20px;
 }
-button {
+div button {
   padding: 15px 30px;
   font-size: 18px;
   color: #fff;
@@ -36,9 +41,26 @@ button {
   cursor: pointer;
   transition: background-color 0.3s;
 }
-button:hover {
+div button:hover {
   background-color: #0056b3;
 }
 #startButton {
   margin-top: 20px;
+}
+
+a{
+  text-decoration: none;
+  width: 20%;
+}
+a button{
+    font-size: 3vmin;
+    display: block;
+    margin: 1.1em auto 0 auto;
+    background-color: #fe0b0b;
+    color: #ffffff;
+    padding: 10px 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }

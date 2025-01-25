@@ -1,8 +1,7 @@
 body {
   font-family: Arial, sans-serif;
   text-align: center;
-  background-color: #f9f9f9;
-  margin: 0;
+  background-image: radial-gradient(#104069,#000000);  margin: 0;
   padding: 0;
 }
 .container {

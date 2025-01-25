@@ -77,19 +77,20 @@ function updateFallingObjects() {
 // Function to display score
 function drawScore() {
     ctx.font = '20px Arial';
-    ctx.fillStyle = '#000';
+    ctx.fillStyle = '#fff';
     ctx.fillText(`Score: ${score}`, 10, 30);
 }
 
 // Game over screen
 function displayGameOver() {
     ctx.font = '30px Arial';
-    ctx.fillStyle = '#ff0000';
+    ctx.fillStyle = '#fff';
     ctx.textAlign = 'center';
     ctx.fillText('Game Over!', canvas.width / 2, canvas.height / 2);
     ctx.fillText(`Final Score: ${score}`, canvas.width / 2, canvas.height / 2 + 40);
     restartButton.style.display = 'block';
-}
+    restartButton.style.marginTop = '80px';
+} 
 
 // Restart game
 restartButton.addEventListener('click', () => {

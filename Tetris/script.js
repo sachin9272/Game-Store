@@ -144,7 +144,7 @@ document.addEventListener('DOMContentLoaded', () => {
         score = 0;
         scoreElement.textContent = score;
         startButton.disabled = true; 
-        gameInterval = setInterval(update, 1000);
+        gameInterval = setInterval(update, 500);
     });
 
     document.addEventListener('keydown', (event) => {

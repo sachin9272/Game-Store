@@ -6,24 +6,26 @@ body {
     justify-content: center;
     min-height: 100vh;
     margin: 0;
-    background-color: #f4f4f9;
-}
+    background-image: radial-gradient(#104069,#000000);}
 
 h1 {
     margin-bottom: 20px;
+    color: #fff;
 }
 
 .game-board {
     display: grid;
     gap: 2px;
-    background-color: #333;
+    background-color: #00bbff;
     padding: 2px;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .cell {
     width: 30px;
     height: 30px;
-    background-color: #ddd;
+    background-color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,10 +33,11 @@ h1 {
     font-weight: bold;
     cursor: pointer;
     user-select: none;
+    border-radius: 5px;
 }
 
 .cell.revealed {
-    background-color: #bbb;
+    background-color: #ff0000;
     cursor: default;
 }
 
@@ -55,4 +58,8 @@ h1 {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
+    background-color: #088b2f;
+    border:none;
+    color: #fff;
+    border-radius: 5px;
 }

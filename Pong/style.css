@@ -1,19 +1,31 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #111;
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000000;
+  flex-direction: column;
 }
 
 .game-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 canvas {
-    background-color: black;
+  background-image: radial-gradient(#1276cf, #000000);
 }
+
+button {
+    margin: 1.1em auto 0 auto;
+    background-color: #fe0b0b;
+    color: #ffffff;
+    padding: 10px 10px;
+    width: 200%;
+    border: none;
+    text-decoration: none;
+  }
