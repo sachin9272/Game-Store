@@ -1,6 +1,6 @@
 # 🎮 Game Store
 
-Welcome to the **Game Store**, a platform showcasing a collection of fun and interactive games built using **HTML**, **CSS**, and **JavaScript**. Play a variety of games directly from the website, including classics like Tic-Tac-Toe, Snake Game, and 2048.
+Welcome to the **Game Store**, a platform showcasing a collection of fun and interactive games built using **HTML**, **CSS**, and **JavaScript**. Play a variety of games directly from the website, including classics like Tic-Tac-Toe, Snake Game, Hangman and 2048.
 
 ---
 
